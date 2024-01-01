@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <img src="4.png" alt="" width="70px">
+        </div>
+        <div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Web UI/UX</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="src">
+            <input type="search" placeholder="Search Here">
+            <button type="submit">Search</button>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="side">
+            <ul>
+                <li><a href="https://www.prothomalo.com/">News</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="1.jpg" alt="" width="100%" style="display: block;">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/jgwMwkyQz5A?si=eOlR1b6f3w0VCl_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <video src="1.mp4" width="500px" height="315" controls></video>
+                </div>
+            </div>
+            <div class="btm" style="display: flex; justify-content: space-between;">
+                <div class="table" style="width: 50%;">
+                    <table style="width: 99%;">
+                        <tr>
+                            <th>Name</th>
+                            <th rowspan="3">Result</th>
+                            <th>Class</th>
+                            <th>Roll</th>
+                        </tr>
+                        <tr>
+                            <td>Abir</td>
+                            <td>X</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                            <td>Rayan</td>
+                            <td>II</td>
+                            <td>345</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="form" style="width: 50%;">
+                    <form action="">
+                        <fieldset>
+                        <legend>Registration Form</legend>
+                        <label for="">Name :</label>
+                        <input type="text"> <br><br>
+                        <label for="">Address :</label>
+                        <textarea name="" id=""  rows="1"></textarea> <br><br>
+                        <label for="">Gender</label>
+                        <input type="radio" name="g" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="g" id="fmale">
+                        <label for="fmale">Female</label><br><br>
+                        <input type="submit">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5> &copy; All Right Reserved | 2023</h5>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+
+
+</body>
+</html>
