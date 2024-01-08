@@ -24,7 +24,7 @@ nav{
     padding: 0 50px;
     position: sticky;
     top: 0;
-    animation: transitionIn .35;
+    animation: transitionIn .85s;
 }
 
 @keyframes transitionIn{

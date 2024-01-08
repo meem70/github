@@ -146,6 +146,10 @@ fieldset{
     background-color: rgba(14, 230, 158, 0.616);
 }
 
+legend{
+    background-color: azure;
+}
+
 footer {
     background-color: burlywood;
     padding: 10px 0;
